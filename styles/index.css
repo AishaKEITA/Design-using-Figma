@@ -1,0 +1,52 @@
+body{
+
+}
+
+
+ul{
+    list-style: none;
+}
+.header{
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+
+  
+    
+
+}
+ul, li, a{
+    color: #2F281E;
+    line-height: 28px; 
+    text-decoration: none;
+    font-size: 28px;
+   
+}
+
+.nav-links li{
+    display: inline-block;
+    justify-content: flex-end;  
+    padding-right:30px;
+}
+
+.nav-links li a:hover{
+    color: red;
+   
+}
+
+.button-two:hover { 
+    color:red;
+}
+
+.logo{
+    width: 187px;
+    height: 32px; 
+    padding-bottom:20px;
+    
+    
+}
