@@ -1,8 +1,8 @@
-body{
 
+.page{
+    width: 1109px;
+    height: 496px;      
 }
-
-
 ul{
     list-style: none;
 }
@@ -14,39 +14,81 @@ ul{
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-
-
-  
-    
-
 }
 ul, li, a{
     color: #2F281E;
     line-height: 28px; 
-    text-decoration: none;
     font-size: 28px;
-   
+    text-decoration: none; 
 }
-
 .nav-links li{
     display: inline-block;
-    justify-content: flex-end;  
-    padding-right:30px;
+    justify-content: flex-end; 
+    padding-right:40px;
+    width: 350;
+    height: 28; 
+    font-size: 14px;
+   white-space: normal; 
 }
-
 .nav-links li a:hover{
     color: red;
    
 }
-
-.button-two:hover { 
-    color:red;
+.button-one{
+    color:#2F281E;
+    background-color:white;
+    width: 102px;
+    height: 46px; 
+    cursor: pointer;
+    }
+.button-two{ 
+    background-color:#FF9900;
+    color:#FFFFFF;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
 }
-
+.button-three{
+    background-color:#FF9900;
+    color:#FFFFFF;
+    width: 175px;
+    height: 53px; 
+    font-size: 14px;
+    cursor: pointer;
+    }
+.button-four{
+    color:#FF9900;
+    width: 134px;
+    height: 24px; 
+    font-size: 16px;
+    text-decoration: underline;
+    display: inline;
+    cursor: pointer;
+                }
+i {
+    color:#FF9900;
+    width: 20px;
+    height: 17px;
+    }
 .logo{
     width: 187px;
     height: 32px; 
-    padding-bottom:20px;
-    
-    
+    padding-bottom:3px;
+    padding-left: 2px; 
+    position: relative; 
+    right: 200px;   
+}
+.wrap{
+    width: 518px;
+    height: 331px;
+    padding-bottom:3px;
+    padding-left: 30px;  
+}
+
+.picture-one{
+    width: 604x;
+    height: 494px;
+    position: absolute;
+    left: 700px;
+    bottom: 400px;
 }
