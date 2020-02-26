@@ -3,6 +3,10 @@ body{
     margin:0px;
     width: 100%;
 }
+h1{
+    font-size: 36PX;
+    font-family: bold;
+}
 .button-one{
     color:#2F281E;
     background-color:white;
@@ -24,17 +28,17 @@ body{
     height: 53px; 
     font-size: 14px;
     cursor: pointer;
-    }
+}
     .button-four{
-        color:#FF9900;
-        width: 134px;
-        height: 24px; 
-        font-size: 16px;
-        text-decoration: underline;
-        display: inline;
-        cursor: pointer;
-        border: none;
-     }
+    color:#FF9900;
+    width: 134px;
+    height: 24px; 
+    font-size: 16px;
+    text-decoration: underline;
+    display: inline;
+    cursor: pointer;
+    border: none;
+}
 .page{
     width: 1109px;
     height: 496px;      
@@ -66,6 +70,7 @@ ul, li, a{
     height: 28; 
     font-size: 14px;
     white-space: normal; 
+    font-size: 14px;
 }
 .nav-links li a:hover{
     color: red;
@@ -89,9 +94,7 @@ ul, li, a{
 text-align: center;
 display: block;
 cursor: pointer;
-
-
- }
+}
  #button-five{
     color:white;
     background-color: #FF9900;
@@ -106,10 +109,9 @@ i {
     width: 187px;
     height: 32px; 
     padding-bottom:3px;
-    padding-left: 2px; 
+    padding-left: 50px; 
     position: relative; 
-    right: 200px;
-  
+    padding-right: 5px; 
 }
 .wrap{
     width: 518px;
@@ -117,38 +119,30 @@ i {
     padding-bottom:3px;
     padding-left: 30px;  
 }
-
+.wrap p{
+    font-size: 18px;
+}
 .picture-one{
     width: 604x;
     height: 35px;
     position: relative;
-    left: 700px;
-    bottom: 300px;
+    left: 500px;
+    bottom: 250px;
 
 }
- 
-
     .wrap-two p{
       font-size: 16px;
       margin-top:2px;
     
-    }
+}
     .wrap-two h2{
         padding-bottom:1px;
     }
-    
-   
     h2{
         font-size: 22px;
         padding:15px;
 
-    }
+}
     .tools-heading{
-    text-align: center;
+    text-align: center;}
   
-    } 
-    /* .tools{ */ */
-        display: flex;
-        align-items: center;
-
-    /* } */
